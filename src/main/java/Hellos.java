@@ -18,18 +18,25 @@ public class Hellos {
     builder.append(aaronSaysHello());
     builder.append(adamSaysHello());
     builder.append(ananyaSaysHello());
+    builder.append(averySaysHello());
     builder.append(ellisSaysHello());
     builder.append(foxSaysHello());
     builder.append(jaydonSaysHello());
     builder.append(jacksonSaysHello());
+    builder.append(joeSaysHello());
+    builder.append(jonSaysHello());
+    builder.append(kaelanSaysHello());
     builder.append(kkSaysHello());
     builder.append(leahSaysHello());
     builder.append(michaelSaysHello());
+    builder.append(mitchSaysHello());
     builder.append(nateSaysHello());
     builder.append(nicSaysHello());
     builder.append(nicolasSaysHello());
     builder.append(roenSaysHello());
+    builder.append(sonicSaysHello());
     builder.append(taylorSaysHello());
+    builder.append(utkarshsaysHello());
 
     return builder.toString();
   }
@@ -40,6 +47,14 @@ public class Hellos {
 
   private static String kkSaysHello() {
     return "KK says 'Hello!'\n";
+  }
+
+  private static String kaelanSaysHello() {
+    return "Kaelan says 'Hi!'\n";
+  }
+
+  private static String jonSaysHello() {
+    return "Jon says 'Yo!'\n";
   }
 
   private static String michaelSaysHello() {
@@ -72,6 +87,14 @@ public class Hellos {
 
   private static String ellisSaysHello() { return "Ellis says 'Hello!'\n"; }
 
+  private static String joeSaysHello(){
+    return "Joe says 'Hello!'\n";
+  }
+
+  private static String mitchSaysHello(){
+    return "Mitch says 'Hello!'\n";
+  }
+
   private static String nateSaysHello() {
     return "Nate says 'Ahoy!'\n";
   }
@@ -80,7 +103,15 @@ public class Hellos {
     return "Leah says 'Hewwo!'\n";
   }
 
+  private static String sonicSaysHello() {
+    return "Sonic says 'Gotta Go FAST!'\n";
+  }
 
+
+
+  private static String averySaysHello() { return "Avery says 'Hey!'\n"; }
+
+  private static String utkarshsaysHello() {return "Utkarsh says 'Namaste!'\n";}
 
   private static String ananyaSaysHello() {return "Ananya says 'hey!'\n"; }
 
