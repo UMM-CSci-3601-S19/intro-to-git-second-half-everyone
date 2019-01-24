@@ -15,11 +15,15 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
     builder.append(WELCOME_LINE + "\n");
+    builder.append(aaronSaysHello());
     builder.append(adamSaysHello());
+    builder.append(ellisSaysHello());
     builder.append(foxSaysHello());
     builder.append(jaydonSaysHello());
     builder.append(kkSaysHello());
+    builder.append(leahSaysHello());
     builder.append(michaelSaysHello());
+    builder.append(nateSaysHello());
     builder.append(nicSaysHello());
     builder.append(nicolasSaysHello());
     builder.append(roenSaysHello());
@@ -63,5 +67,19 @@ public class Hellos {
   private static String foxSaysHello() {
     return "Fox says 'Fire!'\n";
   }
+
+  private static String aaronSaysHello() { return "Aaron says 'Hello!'\n"; }
+
+  private static String ellisSaysHello() { return "Ellis says 'Hello!'\n"; }
+
+  private static String nateSaysHello() {
+    return "Nate says 'Ahoy!'\n";
+  }
+
+  private static String leahSaysHello() {
+    return "Leah says 'Hewwo!'\n";
+  }
+
+
 
 }
