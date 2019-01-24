@@ -33,6 +33,7 @@ public class Hellos {
     builder.append(nateSaysHello());
     builder.append(nicSaysHello());
     builder.append(nicolasSaysHello());
+    builder.append(oprahSaysHello());
     builder.append(roenSaysHello());
     builder.append(sonicSaysHello());
     builder.append(taylorSaysHello());
@@ -105,6 +106,10 @@ public class Hellos {
 
   private static String sonicSaysHello() {
     return "Sonic says 'Gotta Go FAST!'\n";
+  }
+
+  private static String oprahSaysHello() {
+    return "Oprah says 'You get a free car!'\n";
   }
 
 
