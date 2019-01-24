@@ -32,7 +32,7 @@ public class Hellos {
   }
 
   private static String kaelanSaysHello() {
-    return "Kaelan says 'Hi!'\n";
+    return "Kaelan says 'Oh!'\n";
   }
 
   private static String jonSaysHello() {
