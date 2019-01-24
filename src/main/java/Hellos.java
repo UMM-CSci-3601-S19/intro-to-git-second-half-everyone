@@ -20,9 +20,11 @@ public class Hellos {
     builder.append(ellisSaysHello());
     builder.append(foxSaysHello());
     builder.append(jaydonSaysHello());
+    builder.append(joeSaysHello());
     builder.append(kkSaysHello());
     builder.append(leahSaysHello());
     builder.append(michaelSaysHello());
+    builder.append(mitchSaysHello());
     builder.append(nateSaysHello());
     builder.append(nicSaysHello());
     builder.append(nicolasSaysHello());
@@ -72,6 +74,14 @@ public class Hellos {
   private static String aaronSaysHello() { return "Aaron says 'Hello!'\n"; }
 
   private static String ellisSaysHello() { return "Ellis says 'Hello!'\n"; }
+
+  private static String joeSaysHello(){
+    return "Joe says 'Hello!'\n";
+  }
+
+  private static String mitchSaysHello(){
+    return "Mitch says 'Hello!'\n";
+  }
 
   private static String nateSaysHello() {
     return "Nate says 'Ahoy!'\n";
