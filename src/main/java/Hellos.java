@@ -61,7 +61,7 @@ public class Hellos {
   }
 
   private static String foxSaysHello() {
-    return "StarFox says 'Fire!!!'\n";
+    return "Fox says 'Fire!'\n";
   }
 
 }
