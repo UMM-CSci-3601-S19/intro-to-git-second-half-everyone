@@ -18,11 +18,14 @@ public class Hellos {
     builder.append(aaronSaysHello());
     builder.append(adamSaysHello());
     builder.append(ellisSaysHello());
+    builder.append(foxSaysHello());
     builder.append(jaydonSaysHello());
     builder.append(jonSaysHello());
     builder.append(kkSaysHello());
     builder.append(kaelanSaysHello());
+    builder.append(leahSaysHello());
     builder.append(michaelSaysHello());
+    builder.append(nateSaysHello());
     builder.append(nicSaysHello());
     builder.append(nicolasSaysHello());
     builder.append(roenSaysHello());
@@ -63,12 +66,30 @@ public class Hellos {
     return "Roen says 'Hey!'\n";
   }
 
-  private static String nicolasSaysHello() { return "Nicolas says 'Yo!'\n"; }
+  private static String nicolasSaysHello() {
+    return "Nicolas says 'Yo!'\n";
+  }
 
-  private static String adamSaysHello() { return "Adam says 'Ha Yee!'\n"; }
+  private static String adamSaysHello() {
+    return "Adam says 'Ha Yee!'\n";
+  }
+
+  private static String foxSaysHello() {
+    return "Fox says 'Fire!'\n";
+  }
 
   private static String aaronSaysHello() { return "Aaron says 'Hello!'\n"; }
 
   private static String ellisSaysHello() { return "Ellis says 'Hello!'\n"; }
+
+  private static String nateSaysHello() {
+    return "Nate says 'Ahoy!'\n";
+  }
+
+  private static String leahSaysHello() {
+    return "Leah says 'Hewwo!'\n";
+  }
+
+
 
 }
